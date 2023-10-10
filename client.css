@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  padding-left: 16%;
+}
+
+.menu {
+  background-color: rgb(15, 17, 15);
+  text-align: center;
+}
+
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+  color: aliceblue;
+}
+
+.menu ul li {
+  width: 100%;
+  margin: 15px;
+  padding:3px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.clients,.menu ul li:hover {
+  background: #ec0909;
+  border-radius: 3px;
+}
+
+body {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
